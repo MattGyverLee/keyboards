@@ -91,10 +91,11 @@
                 "text": "م"
               },
               {
-                "id": "T_new_20",
-                "text": "",
-                "width": "10",
-                "sp": "10"
+                "id": "K_SYMBOLS",
+                "text": "*Symbol*",
+                "sp": 1,
+                "width": 100,
+                "nextlayer": "symbol"
               }
             ]
           },
@@ -294,10 +295,11 @@
                 "layer": "default"
               },
               {
-                "id": "T_new_238",
-                "text": "",
-                "width": "10",
-                "sp": "10"
+                "id": "K_SYMBOLS",
+                "text": "*Symbol*",
+                "sp": 1,
+                "width": 100,
+                "nextlayer": "symbol"
               }
             ]
           },
@@ -505,10 +507,11 @@
                 "layer": "default"
               },
               {
-                "id": "T_new_608",
-                "text": "",
-                "width": "10",
-                "sp": "10"
+                "id": "K_SYMBOLS",
+                "text": "*Symbol*",
+                "sp": 1,
+                "width": 100,
+                "nextlayer": "symbol"
               }
             ]
           },

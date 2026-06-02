@@ -225,9 +225,16 @@
                 "sp": "1"
               },
               {
+                "id": "K_SYMBOLS",
+                "text": "*Symbol*",
+                "sp": 1,
+                "width": 125,
+                "nextlayer": "symbol"
+              },
+              {
                 "id": "K_SPACE",
                 "text": "",
-                "width": "600",
+                "width": 520,
                 "sp": "0"
               },
               {
@@ -509,9 +516,16 @@
                 "sp": "1"
               },
               {
+                "id": "K_SYMBOLS",
+                "text": "*Symbol*",
+                "sp": 1,
+                "width": 125,
+                "nextlayer": "symbol"
+              },
+              {
                 "id": "K_SPACE",
                 "text": "",
-                "width": "600",
+                "width": 520,
                 "sp": "0"
               },
               {
@@ -834,9 +848,16 @@
                 "sp": "1"
               },
               {
+                "id": "K_SYMBOLS",
+                "text": "*Symbol*",
+                "sp": 1,
+                "width": 125,
+                "nextlayer": "symbol"
+              },
+              {
                 "id": "K_SPACE",
                 "text": "",
-                "width": "730",
+                "width": 650,
                 "sp": "0"
               },
               {

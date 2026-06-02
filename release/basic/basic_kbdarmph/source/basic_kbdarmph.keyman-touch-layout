@@ -274,9 +274,16 @@
                 "sp": "1"
               },
               {
+                "id": "K_SYMBOLS",
+                "text": "*Symbol*",
+                "sp": 1,
+                "width": 140,
+                "nextlayer": "symbol"
+              },
+              {
                 "id": "K_SPACE",
                 "text": "",
-                "width": "930"
+                "width": 865
               },
               {
                 "id": "K_ENTER",
@@ -613,9 +620,16 @@
                 "nextlayer": "default"
               },
               {
+                "id": "K_SYMBOLS",
+                "text": "*Symbol*",
+                "sp": 1,
+                "width": 140,
+                "nextlayer": "symbol"
+              },
+              {
                 "id": "K_SPACE",
                 "text": "",
-                "width": "930",
+                "width": 865,
                 "nextlayer": "default"
               },
               {
@@ -947,9 +961,16 @@
                 "nextlayer": "default"
               },
               {
+                "id": "K_SYMBOLS",
+                "text": "*Symbol*",
+                "sp": 1,
+                "width": 140,
+                "nextlayer": "symbol"
+              },
+              {
                 "id": "K_SPACE",
                 "text": "",
-                "width": "930",
+                "width": 865,
                 "nextlayer": "default"
               },
               {
@@ -1294,9 +1315,16 @@
                 "nextlayer": "default"
               },
               {
+                "id": "K_SYMBOLS",
+                "text": "*Symbol*",
+                "sp": 1,
+                "width": 140,
+                "nextlayer": "symbol"
+              },
+              {
                 "id": "K_SPACE",
                 "text": "",
-                "width": "930",
+                "width": 865,
                 "nextlayer": "default"
               },
               {
@@ -1576,9 +1604,16 @@
                 "sp": "1"
               },
               {
+                "id": "K_SYMBOLS",
+                "text": "*Symbol*",
+                "sp": 1,
+                "width": 140,
+                "nextlayer": "symbol-caps"
+              },
+              {
                 "id": "K_SPACE",
                 "text": "",
-                "width": "930"
+                "width": 865
               },
               {
                 "id": "K_ENTER",
@@ -1598,43 +1633,53 @@
             "key": [
               {
                 "id": "T_0031",
-                "text": "1"
+                "text": "1",
+                "nextlayer": "default"
               },
               {
                 "id": "T_0032",
-                "text": "2"
+                "text": "2",
+                "nextlayer": "default"
               },
               {
                 "id": "T_0033",
-                "text": "3"
+                "text": "3",
+                "nextlayer": "default"
               },
               {
                 "id": "T_0034",
-                "text": "4"
+                "text": "4",
+                "nextlayer": "default"
               },
               {
                 "id": "T_0035",
-                "text": "5"
+                "text": "5",
+                "nextlayer": "default"
               },
               {
                 "id": "T_0036",
-                "text": "6"
+                "text": "6",
+                "nextlayer": "default"
               },
               {
                 "id": "T_0037",
-                "text": "7"
+                "text": "7",
+                "nextlayer": "default"
               },
               {
                 "id": "T_0038",
-                "text": "8"
+                "text": "8",
+                "nextlayer": "default"
               },
               {
                 "id": "T_0039",
-                "text": "9"
+                "text": "9",
+                "nextlayer": "default"
               },
               {
                 "id": "T_0030",
-                "text": "0"
+                "text": "0",
+                "nextlayer": "default"
               },
               {
                 "id": "K_BKSP",
@@ -1648,15 +1693,18 @@
             "key": [
               {
                 "id": "U_002A",
-                "text": "*"
+                "text": "*",
+                "nextlayer": "default"
               },
               {
                 "id": "U_0023",
-                "text": "#"
+                "text": "#",
+                "nextlayer": "default"
               },
               {
                 "id": "U_0025",
-                "text": "%"
+                "text": "%",
+                "nextlayer": "default"
               },
               {
                 "id": "U_005F",
@@ -1670,11 +1718,13 @@
               },
               {
                 "id": "U_002D",
-                "text": "-"
+                "text": "-",
+                "nextlayer": "default"
               },
               {
                 "id": "U_002B",
-                "text": "+"
+                "text": "+",
+                "nextlayer": "default"
               },
               {
                 "id": "U_0028",
@@ -1690,7 +1740,8 @@
                     "id": "U_007B",
                     "nextlayer": "default"
                   }
-                ]
+                ],
+                "nextlayer": "default"
               },
               {
                 "id": "U_0029",
@@ -1706,15 +1757,18 @@
                     "id": "U_007D",
                     "nextlayer": "default"
                   }
-                ]
+                ],
+                "nextlayer": "default"
               },
               {
                 "id": "U_003C",
-                "text": "<"
+                "text": "<",
+                "nextlayer": "default"
               },
               {
                 "id": "U_003E",
-                "text": ">"
+                "text": ">",
+                "nextlayer": "default"
               }
             ]
           },
@@ -1763,12 +1817,14 @@
               {
                 "id": "T_003A",
                 "text": ":",
-                "layer": "default"
+                "layer": "default",
+                "nextlayer": "default"
               },
               {
                 "id": "T_003B",
                 "text": ";",
-                "layer": "default"
+                "layer": "default",
+                "nextlayer": "default"
               },
               {
                 "id": "T_0021",
@@ -1822,7 +1878,8 @@
               },
               {
                 "id": "U_003D",
-                "text": "="
+                "text": "=",
+                "nextlayer": "default"
               },
               {
                 "id": "U_007C",
@@ -1836,7 +1893,8 @@
             "key": [
               {
                 "id": "U_007E",
-                "text": "~"
+                "text": "~",
+                "nextlayer": "default"
               },
               {
                 "id": "U_00A9",
@@ -1868,29 +1926,35 @@
               {
                 "id": "T_002C",
                 "text": ",",
-                "layer": "default"
+                "layer": "default",
+                "nextlayer": "default"
               },
               {
                 "id": "U_0024",
-                "text": "$"
+                "text": "$",
+                "nextlayer": "default"
               },
               {
                 "id": "U_20AC",
-                "text": "€"
+                "text": "€",
+                "nextlayer": "default"
               },
               {
                 "id": "U_00A3",
-                "text": "£"
+                "text": "£",
+                "nextlayer": "default"
               },
               {
                 "id": "U_00A5",
-                "text": "¥"
+                "text": "¥",
+                "nextlayer": "default"
               },
               {
                 "id": "T_FCFA",
                 "text": "FCFA",
                 "width": 205,
-                "fontsize": ".6em"
+                "fontsize": ".6em",
+                "nextlayer": "default"
               }
             ]
           },
@@ -1914,13 +1978,15 @@
                 "text": "",
                 "width": 625,
                 "sp": 0,
-                "layer": "default"
+                "layer": "default",
+                "nextlayer": "default"
               },
               {
                 "id": "T_002E",
                 "text": ".",
                 "width": 150,
-                "layer": "default"
+                "layer": "default",
+                "nextlayer": "default"
               },
               {
                 "id": "K_ENTER",

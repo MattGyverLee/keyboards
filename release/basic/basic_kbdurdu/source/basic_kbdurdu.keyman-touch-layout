@@ -101,10 +101,11 @@
                 "text": "ی"
               },
               {
-                "id": "T_new_156",
-                "text": "",
-                "width": "10",
-                "sp": "10"
+                "id": "K_SYMBOLS",
+                "text": "*Symbol*",
+                "sp": 1,
+                "width": 100,
+                "nextlayer": "symbol"
               }
             ]
           },
@@ -369,10 +370,11 @@
                 ]
               },
               {
-                "id": "T_new_334",
-                "text": "",
-                "width": "10",
-                "sp": "10"
+                "id": "K_SYMBOLS",
+                "text": "*Symbol*",
+                "sp": 1,
+                "width": 100,
+                "nextlayer": "symbol"
               }
             ]
           },
@@ -634,10 +636,11 @@
                 "layer": "default"
               },
               {
-                "id": "T_new_104",
-                "text": "",
-                "width": "10",
-                "sp": "10"
+                "id": "K_SYMBOLS",
+                "text": "*Symbol*",
+                "sp": 1,
+                "width": 100,
+                "nextlayer": "symbol"
               }
             ]
           },

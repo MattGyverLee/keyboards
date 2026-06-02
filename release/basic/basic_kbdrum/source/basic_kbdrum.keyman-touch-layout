@@ -94,10 +94,11 @@
                 "text": "л"
               },
               {
-                "id": "T_new_20",
-                "text": "",
-                "width": "10",
-                "sp": "10"
+                "id": "K_SYMBOLS",
+                "text": "*Symbol*",
+                "sp": 1,
+                "width": 100,
+                "nextlayer": "symbol"
               }
             ]
           },
@@ -315,10 +316,11 @@
                 "text": "Л"
               },
               {
-                "id": "T_new_54",
-                "text": "",
-                "width": "10",
-                "sp": "10"
+                "id": "K_SYMBOLS",
+                "text": "*Symbol*",
+                "sp": 1,
+                "width": 100,
+                "nextlayer": "symbol"
               }
             ]
           },
@@ -549,10 +551,11 @@
                 "layer": "rightalt"
               },
               {
-                "id": "T_new_88",
-                "text": "",
-                "width": "10",
-                "sp": "10"
+                "id": "K_SYMBOLS",
+                "text": "*Symbol*",
+                "sp": 1,
+                "width": 100,
+                "nextlayer": "symbol"
               }
             ]
           },

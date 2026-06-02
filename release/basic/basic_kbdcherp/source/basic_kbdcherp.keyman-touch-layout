@@ -246,6 +246,13 @@
                 "sp": 1
               },
               {
+                "id": "K_SYMBOLS",
+                "text": "*Symbol*",
+                "sp": 1,
+                "width": 140,
+                "nextlayer": "symbol"
+              },
+              {
                 "id": "K_SPACE",
                 "width": 930
               },
@@ -501,6 +508,13 @@
                 "text": "*Menu*",
                 "width": 140,
                 "sp": 1
+              },
+              {
+                "id": "K_SYMBOLS",
+                "text": "*Symbol*",
+                "sp": 1,
+                "width": 140,
+                "nextlayer": "symbol"
               },
               {
                 "id": "K_SPACE",

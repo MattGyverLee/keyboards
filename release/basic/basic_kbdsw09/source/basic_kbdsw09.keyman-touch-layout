@@ -265,8 +265,15 @@
                 "sp": 1
               },
               {
+                "id": "K_SYMBOLS",
+                "text": "*Symbol*",
+                "sp": 1,
+                "width": 140,
+                "nextlayer": "symbol"
+              },
+              {
                 "id": "K_SPACE",
-                "width": 930
+                "width": 865
               },
               {
                 "id": "K_ENTER",
@@ -536,8 +543,15 @@
                 "sp": 1
               },
               {
+                "id": "K_SYMBOLS",
+                "text": "*Symbol*",
+                "sp": 1,
+                "width": 140,
+                "nextlayer": "symbol"
+              },
+              {
                 "id": "K_SPACE",
-                "width": 930
+                "width": 865
               },
               {
                 "id": "K_ENTER",
@@ -812,8 +826,15 @@
                 "sp": 1
               },
               {
+                "id": "K_SYMBOLS",
+                "text": "*Symbol*",
+                "sp": 1,
+                "width": 140,
+                "nextlayer": "symbol"
+              },
+              {
                 "id": "K_SPACE",
-                "width": 930
+                "width": 865
               },
               {
                 "id": "K_ENTER",
@@ -1050,8 +1071,15 @@
                 "sp": 1
               },
               {
+                "id": "K_SYMBOLS",
+                "text": "*Symbol*",
+                "sp": 1,
+                "width": 140,
+                "nextlayer": "symbol"
+              },
+              {
                 "id": "K_SPACE",
-                "width": 930
+                "width": 865
               },
               {
                 "id": "K_ENTER",

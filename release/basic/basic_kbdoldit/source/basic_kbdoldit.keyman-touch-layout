@@ -75,10 +75,11 @@
                 "text": "𐌋"
               },
               {
-                "id": "T_new_20",
-                "text": "",
-                "width": "10",
-                "sp": "10"
+                "id": "K_SYMBOLS",
+                "text": "*Symbol*",
+                "sp": 1,
+                "width": 100,
+                "nextlayer": "symbol"
               }
             ]
           },
@@ -228,10 +229,11 @@
                 "sp": "10"
               },
               {
-                "id": "T_new_122",
-                "text": "",
-                "width": "10",
-                "sp": "10"
+                "id": "K_SYMBOLS",
+                "text": "*Symbol*",
+                "sp": 1,
+                "width": 100,
+                "nextlayer": "symbol"
               }
             ]
           },
