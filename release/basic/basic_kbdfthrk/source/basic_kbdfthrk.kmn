@@ -15,6 +15,7 @@ store(&BITMAP) 'basic_kbdfthrk.ico'
 store(&LAYOUTFILE) 'basic_kbdfthrk.keyman-touch-layout'
 store(&COPYRIGHT) '(c) 2018 SIL International'
 store(&KEYBOARDVERSION) '1.0'
+store(&CasedKeys) [K_A]..[K_Z]
 
 begin Unicode > use(main)
 
@@ -84,10 +85,8 @@ group(main) using keys
 
 + [K_9] > U+16f0
 
-+ [NCAPS K_A] > U+16a8
-+ [CAPS K_A] > U+16ac
-+ [NCAPS SHIFT K_A] > U+16ac
-+ [CAPS SHIFT K_A] > U+16a8
++ [K_A] > U+16a8
++ [SHIFT K_A] > U+16ac
 
 + [K_B] > U+16d2
 
@@ -99,29 +98,21 @@ group(main) using keys
 
 + [K_G] > U+16b7
 
-+ [NCAPS K_H] > U+16ba
-+ [CAPS K_H] > U+16bc
-+ [NCAPS SHIFT K_H] > U+16bc
-+ [CAPS SHIFT K_H] > U+16ba
++ [K_H] > U+16ba
++ [SHIFT K_H] > U+16bc
 
 + [K_I] > U+16c1
 
-+ [NCAPS K_J] > U+16c3
-+ [CAPS K_J] > U+16c5
-+ [NCAPS SHIFT K_J] > U+16c5
-+ [CAPS SHIFT K_J] > U+16c3
++ [K_J] > U+16c3
++ [SHIFT K_J] > U+16c5
 
-+ [NCAPS K_K] > U+16b2
-+ [CAPS K_K] > U+16b4
-+ [NCAPS SHIFT K_K] > U+16b4
-+ [CAPS SHIFT K_K] > U+16b2
++ [K_K] > U+16b2
++ [SHIFT K_K] > U+16b4
 
 + [K_L] > U+16da
 
-+ [NCAPS K_M] > U+16d7
-+ [CAPS K_M] > U+16d8
-+ [NCAPS SHIFT K_M] > U+16d8
-+ [CAPS SHIFT K_M] > U+16d7
++ [K_M] > U+16d7
++ [SHIFT K_M] > U+16d8
 
 + [K_N] > U+16be
 
@@ -131,15 +122,11 @@ group(main) using keys
 
 + [K_Q] > U+16a6
 
-+ [NCAPS K_R] > U+16b1
-+ [CAPS K_R] > U+16e6
-+ [NCAPS SHIFT K_R] > U+16e6
-+ [CAPS SHIFT K_R] > U+16b1
++ [K_R] > U+16b1
++ [SHIFT K_R] > U+16e6
 
-+ [NCAPS K_S] > U+16ca
-+ [CAPS K_S] > U+16cb
-+ [NCAPS SHIFT K_S] > U+16cb
-+ [CAPS SHIFT K_S] > U+16ca
++ [K_S] > U+16ca
++ [SHIFT K_S] > U+16cb
 
 + [K_T] > U+16cf
 

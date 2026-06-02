@@ -15,6 +15,7 @@ store(&BITMAP) 'basic_kbdmonmo.ico'
 store(&LAYOUTFILE) 'basic_kbdmonmo.keyman-touch-layout'
 store(&COPYRIGHT) '(c) 2009-2019 SIL International'
 store(&KEYBOARDVERSION) '1.1'
+store(&CasedKeys) [K_A]..[K_Z] [K_BKSLASH] [K_COLON] [K_COMMA] [K_LBRKT] [K_PERIOD] [K_QUOTE] [K_SLASH]
 
 begin Unicode > use(main)
 
@@ -59,26 +60,20 @@ store(nul) "QTYUIOPASDFGJXVBM"
 
 + [K_B] > U+182a
 
-+ [NCAPS K_C] > U+183c
-+ [CAPS K_C] > U+1842
-+ [NCAPS SHIFT K_C] > U+1842
-+ [CAPS SHIFT K_C] > U+183c
++ [K_C] > U+183c
++ [SHIFT K_C] > U+1842
 
 + [K_D] > U+1833
 
-+ [NCAPS K_E] > U+1821
-+ [CAPS K_E] > U+1827
-+ [NCAPS SHIFT K_E] > U+1827
-+ [CAPS SHIFT K_E] > U+1821
++ [K_E] > U+1821
++ [SHIFT K_E] > U+1827
 
 + [K_F] > U+1839
 
 + [K_G] > U+182d
 
-+ [NCAPS K_H] > U+182c
-+ [CAPS K_H] > U+183e
-+ [NCAPS SHIFT K_H] > U+183e
-+ [CAPS SHIFT K_H] > U+182c
++ [K_H] > U+182c
++ [SHIFT K_H] > U+183e
 
 + [K_I] > U+1822
 
@@ -87,17 +82,13 @@ store(nul) "QTYUIOPASDFGJXVBM"
 + [K_K] > U+183a
 + [SHIFT K_K] > U+183b
 
-+ [NCAPS K_L] > U+182f
-+ [CAPS K_L] > U+1840
-+ [NCAPS SHIFT K_L] > U+1840
-+ [CAPS SHIFT K_L] > U+182f
++ [K_L] > U+182f
++ [SHIFT K_L] > U+1840
 
 + [K_M] > U+182e
 
-+ [NCAPS K_N] > U+1828
-+ [CAPS K_N] > U+1829
-+ [NCAPS SHIFT K_N] > U+1829
-+ [CAPS SHIFT K_N] > U+1828
++ [K_N] > U+1828
++ [SHIFT K_N] > U+1829
 
 + [K_O] > U+1825
 
@@ -105,10 +96,8 @@ store(nul) "QTYUIOPASDFGJXVBM"
 
 + [K_Q] > U+1834
 
-+ [NCAPS K_R] > U+1837
-+ [CAPS K_R] > U+183f
-+ [NCAPS SHIFT K_R] > U+183f
-+ [CAPS SHIFT K_R] > U+1837
++ [K_R] > U+1837
++ [SHIFT K_R] > U+183f
 
 + [K_S] > U+1830
 
@@ -118,65 +107,47 @@ store(nul) "QTYUIOPASDFGJXVBM"
 
 + [K_V] > U+1824
 
-+ [NCAPS K_W] > U+1823
-+ [CAPS K_W] > U+1838
-+ [NCAPS SHIFT K_W] > U+1838
-+ [CAPS SHIFT K_W] > U+1823
++ [K_W] > U+1823
++ [SHIFT K_W] > U+1838
 
 + [K_X] > U+1831
 
 + [K_Y] > U+1836
 
-+ [NCAPS K_Z] > U+183d
-+ [CAPS K_Z] > U+1841
-+ [NCAPS SHIFT K_Z] > U+1841
-+ [CAPS SHIFT K_Z] > U+183d
++ [K_Z] > U+183d
++ [SHIFT K_Z] > U+1841
 
-+ [NCAPS K_COLON] > U+003b
-+ [CAPS K_COLON] > U+1804
-+ [NCAPS SHIFT K_COLON] > U+1804
-+ [CAPS SHIFT K_COLON] > U+003b
++ [K_COLON] > U+003b
++ [SHIFT K_COLON] > U+1804
 
 + [K_EQUAL] > U+003d
 + [SHIFT K_EQUAL] > U+002b
 
-+ [NCAPS K_COMMA] > U+1802
-+ [CAPS K_COMMA] > U+300a
-+ [NCAPS SHIFT K_COMMA] > U+300a
-+ [CAPS SHIFT K_COMMA] > U+1802
++ [K_COMMA] > U+1802
++ [SHIFT K_COMMA] > U+300a
 
 + [K_HYPHEN] > U+202f
 + [SHIFT K_HYPHEN] > U+180e
 
-+ [NCAPS K_PERIOD] > U+1803
-+ [CAPS K_PERIOD] > U+300b
-+ [NCAPS SHIFT K_PERIOD] > U+300b
-+ [CAPS SHIFT K_PERIOD] > U+1803
++ [K_PERIOD] > U+1803
++ [SHIFT K_PERIOD] > U+300b
 
-+ [NCAPS K_SLASH] > U+002e
-+ [CAPS K_SLASH] > U+003f
-+ [NCAPS SHIFT K_SLASH] > U+003f
-+ [CAPS SHIFT K_SLASH] > U+002e
++ [K_SLASH] > U+002e
++ [SHIFT K_SLASH] > U+003f
 
 + [K_BKQUOTE] > U+180d
 + [SHIFT K_BKQUOTE] > U+007e
 
-+ [NCAPS K_LBRKT] > U+3014
-+ [CAPS K_LBRKT] > U+3008
-+ [NCAPS SHIFT K_LBRKT] > U+3008
-+ [CAPS SHIFT K_LBRKT] > U+3014
++ [K_LBRKT] > U+3014
++ [SHIFT K_LBRKT] > U+3008
 
-+ [NCAPS K_BKSLASH] > U+1801
-+ [CAPS K_BKSLASH] > U+007c
-+ [NCAPS SHIFT K_BKSLASH] > U+007c
-+ [CAPS SHIFT K_BKSLASH] > U+1801
++ [K_BKSLASH] > U+1801
++ [SHIFT K_BKSLASH] > U+007c
 
 + [K_RBRKT] > U+3015
 + [SHIFT K_RBRKT] > U+3009
 
-+ [NCAPS K_QUOTE] > U+180b
-+ [CAPS K_QUOTE] > U+180c
-+ [NCAPS SHIFT K_QUOTE] > U+180c
-+ [CAPS SHIFT K_QUOTE] > U+180b
++ [K_QUOTE] > U+180b
++ [SHIFT K_QUOTE] > U+180c
 
 

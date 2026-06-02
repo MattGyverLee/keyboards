@@ -15,6 +15,7 @@ store(&BITMAP) 'basic_kbdtiprd.ico'
 store(&LAYOUTFILE) 'basic_kbdtiprd.keyman-touch-layout'
 store(&COPYRIGHT) '(c) 2008-2019 SIL International'
 store(&KEYBOARDVERSION) '1.1'
+store(&CasedKeys) [K_0]..[K_9] [K_A]..[K_Z] [K_BKQUOTE] [K_BKSLASH] [K_COLON] [K_COMMA] [K_EQUAL] [K_HYPHEN] [K_LBRKT] [K_PERIOD] [K_QUOTE] [K_RBRKT] [K_SLASH] [K_SPACE]
 
 begin Unicode > use(main)
 
@@ -22,290 +23,196 @@ group(main) using keys
 
 + [K_SPACE] > U+0020
 
-+ [NCAPS K_0] > U+0f20
-+ [CAPS K_0] > U+0f33
-+ [NCAPS SHIFT K_0] > U+0f33
-+ [CAPS SHIFT K_0] > U+0f20
-+ [NCAPS SHIFT RALT K_0] > U+0f12
++ [K_0] > U+0f20
++ [SHIFT K_0] > U+0f33
++ [SHIFT RALT K_0] > U+0f12
 
-+ [NCAPS K_1] > U+0f21
-+ [CAPS K_1] > U+0f2a
-+ [NCAPS SHIFT K_1] > U+0f2a
-+ [CAPS SHIFT K_1] > U+0f21
-+ [NCAPS SHIFT RALT K_1] > U+0f76
++ [K_1] > U+0f21
++ [SHIFT K_1] > U+0f2a
++ [SHIFT RALT K_1] > U+0f76
 
-+ [NCAPS K_2] > U+0f22
-+ [CAPS K_2] > U+0f2b
-+ [NCAPS SHIFT K_2] > U+0f2b
-+ [CAPS SHIFT K_2] > U+0f22
-+ [NCAPS SHIFT RALT K_2] > U+0fb2 U+0f71 U+0f80
++ [K_2] > U+0f22
++ [SHIFT K_2] > U+0f2b
++ [SHIFT RALT K_2] > U+0fb2 U+0f71 U+0f80
 
-+ [NCAPS K_3] > U+0f23
-+ [CAPS K_3] > U+0f2c
-+ [NCAPS SHIFT K_3] > U+0f2c
-+ [CAPS SHIFT K_3] > U+0f23
-+ [NCAPS SHIFT RALT K_3] > U+0f78
++ [K_3] > U+0f23
++ [SHIFT K_3] > U+0f2c
++ [SHIFT RALT K_3] > U+0f78
 
-+ [NCAPS K_4] > U+0f24
-+ [CAPS K_4] > U+0f2d
-+ [NCAPS SHIFT K_4] > U+0f2d
-+ [CAPS SHIFT K_4] > U+0f24
-+ [NCAPS SHIFT RALT K_4] > U+0fb3 U+0f71 U+0f80
++ [K_4] > U+0f24
++ [SHIFT K_4] > U+0f2d
++ [SHIFT RALT K_4] > U+0fb3 U+0f71 U+0f80
 
-+ [NCAPS K_5] > U+0f25
-+ [CAPS K_5] > U+0f2e
-+ [NCAPS SHIFT K_5] > U+0f2e
-+ [CAPS SHIFT K_5] > U+0f25
-+ [NCAPS SHIFT RALT K_5] > U+0f71 U+0f80
++ [K_5] > U+0f25
++ [SHIFT K_5] > U+0f2e
++ [SHIFT RALT K_5] > U+0f71 U+0f80
 
-+ [NCAPS K_6] > U+0f26
-+ [CAPS K_6] > U+0f2f
-+ [NCAPS SHIFT K_6] > U+0f2f
-+ [CAPS SHIFT K_6] > U+0f26
-+ [NCAPS SHIFT RALT K_6] > U+0f09
++ [K_6] > U+0f26
++ [SHIFT K_6] > U+0f2f
++ [SHIFT RALT K_6] > U+0f09
 
-+ [NCAPS K_7] > U+0f27
-+ [CAPS K_7] > U+0f30
-+ [NCAPS SHIFT K_7] > U+0f30
-+ [CAPS SHIFT K_7] > U+0f27
-+ [NCAPS SHIFT RALT K_7] > U+0f0a
++ [K_7] > U+0f27
++ [SHIFT K_7] > U+0f30
++ [SHIFT RALT K_7] > U+0f0a
 
-+ [NCAPS K_8] > U+0f28
-+ [CAPS K_8] > U+0f31
-+ [NCAPS SHIFT K_8] > U+0f31
-+ [CAPS SHIFT K_8] > U+0f28
-+ [NCAPS SHIFT RALT K_8] > U+0f0f
++ [K_8] > U+0f28
++ [SHIFT K_8] > U+0f31
++ [SHIFT RALT K_8] > U+0f0f
 
-+ [NCAPS K_9] > U+0f29
-+ [CAPS K_9] > U+0f32
-+ [NCAPS SHIFT K_9] > U+0f32
-+ [CAPS SHIFT K_9] > U+0f29
-+ [NCAPS SHIFT RALT K_9] > U+0f10
++ [K_9] > U+0f29
++ [SHIFT K_9] > U+0f32
++ [SHIFT RALT K_9] > U+0f10
 
-+ [NCAPS K_A] > U+0f60
-+ [CAPS K_A] > U+0f71
-+ [NCAPS SHIFT K_A] > U+0f71
-+ [CAPS SHIFT K_A] > U+0f60
-+ [NCAPS SHIFT RALT K_A] > U+0fc4
++ [K_A] > U+0f60
++ [SHIFT K_A] > U+0f71
++ [SHIFT RALT K_A] > U+0fc4
 
-+ [NCAPS K_B] > U+0f54
-+ [CAPS K_B] > U+0f86
-+ [NCAPS SHIFT K_B] > U+0f86
-+ [CAPS SHIFT K_B] > U+0f54
-+ [NCAPS SHIFT RALT K_B] > U+0f82
++ [K_B] > U+0f54
++ [SHIFT K_B] > U+0f86
++ [SHIFT RALT K_B] > U+0f82
 
-+ [NCAPS K_C] > U+0f40
-+ [CAPS K_C] > U+0f69
-+ [NCAPS SHIFT K_C] > U+0f69
-+ [CAPS SHIFT K_C] > U+0f40
-+ [NCAPS SHIFT RALT K_C] > U+0fb9
++ [K_C] > U+0f40
++ [SHIFT K_C] > U+0f69
++ [SHIFT RALT K_C] > U+0fb9
 
-+ [NCAPS K_D] > U+0f51
-+ [CAPS K_D] > U+0f4c
-+ [NCAPS SHIFT K_D] > U+0f4c
-+ [CAPS SHIFT K_D] > U+0f51
-+ [NCAPS SHIFT RALT K_D] > U+0f9c
++ [K_D] > U+0f51
++ [SHIFT K_D] > U+0f4c
++ [SHIFT RALT K_D] > U+0f9c
 
-+ [NCAPS K_E] > U+0f7a
-+ [CAPS K_E] > U+0f17
-+ [NCAPS SHIFT K_E] > U+0f17
-+ [CAPS SHIFT K_E] > U+0f7a
-+ [NCAPS SHIFT RALT K_E] > U+0fbe
++ [K_E] > U+0f7a
++ [SHIFT K_E] > U+0f17
++ [SHIFT RALT K_E] > U+0fbe
 
-+ [NCAPS K_F] > U+0f56
-+ [CAPS K_F] > U+0f3e
-+ [NCAPS SHIFT K_F] > U+0f3e
-+ [CAPS SHIFT K_F] > U+0f56
-+ [NCAPS SHIFT RALT K_F] > U+0f57
++ [K_F] > U+0f56
++ [SHIFT K_F] > U+0f3e
++ [SHIFT RALT K_F] > U+0f57
 
-+ [NCAPS K_G] > U+0f44
-+ [CAPS K_G] > U+0f3f
-+ [NCAPS SHIFT K_G] > U+0f3f
-+ [CAPS SHIFT K_G] > U+0f44
-+ [NCAPS SHIFT RALT K_G] > U+0fc6
++ [K_G] > U+0f44
++ [SHIFT K_G] > U+0f3f
++ [SHIFT RALT K_G] > U+0fc6
 
-+ [NCAPS K_H] > U+0f58
-+ [CAPS K_H] > U+0fcf
-+ [NCAPS SHIFT K_H] > U+0fcf
-+ [CAPS SHIFT K_H] > U+0f58
-+ [NCAPS SHIFT RALT K_H] > U+0fc7
++ [K_H] > U+0f58
++ [SHIFT K_H] > U+0fcf
++ [SHIFT RALT K_H] > U+0fc7
 
-+ [NCAPS K_I] > U+0f72
-+ [CAPS K_I] > U+0f19
-+ [NCAPS SHIFT K_I] > U+0f19
-+ [CAPS SHIFT K_I] > U+0f72
-+ [NCAPS SHIFT RALT K_I] > U+0f71 U+0f72
++ [K_I] > U+0f72
++ [SHIFT K_I] > U+0f19
++ [SHIFT RALT K_I] > U+0f71 U+0f72
 
-+ [NCAPS K_J] > U+0f0b
-+ [CAPS K_J] > U+0f02
-+ [NCAPS SHIFT K_J] > U+0f02
-+ [CAPS SHIFT K_J] > U+0f0b
-+ [NCAPS SHIFT RALT K_J] > U+0fc8
++ [K_J] > U+0f0b
++ [SHIFT K_J] > U+0f02
++ [SHIFT RALT K_J] > U+0fc8
 
-+ [NCAPS K_K] > U+0f42
-+ [CAPS K_K] > U+0f03
-+ [NCAPS SHIFT K_K] > U+0f03
-+ [CAPS SHIFT K_K] > U+0f42
-c + [NCAPS SHIFT RALT K_K] > U+0f43     c removed because this is a Keyman hotkey
-+ [NCAPS RALT K_K] > U+0f43
++ [K_K] > U+0f42
++ [SHIFT K_K] > U+0f03
+c + [SHIFT RALT K_K] > U+0f43     c removed because this is a Keyman hotkey
++ [RALT K_K] > U+0f43
 
-+ [NCAPS K_L] > U+0f63
-+ [CAPS K_L] > U+0f06
-+ [NCAPS SHIFT K_L] > U+0f06
-+ [CAPS SHIFT K_L] > U+0f63
-+ [NCAPS SHIFT RALT K_L] > U+0fc9
++ [K_L] > U+0f63
++ [SHIFT K_L] > U+0f06
++ [SHIFT RALT K_L] > U+0fc9
 
-+ [NCAPS K_M] > dk(006d)
-+ [CAPS K_M] > dk(004d)
-+ [NCAPS SHIFT K_M] > dk(004d)
-+ [CAPS SHIFT K_M] > dk(006d)
-c + [NCAPS SHIFT RALT K_M] > U+0f52 c removed because this is a Keyman hotkey
-+ [NCAPS RALT K_M] > U+0f52
++ [K_M] > dk(006d)
++ [SHIFT K_M] > dk(004d)
+c + [SHIFT RALT K_M] > U+0f52 c removed because this is a Keyman hotkey
++ [RALT K_M] > U+0f52
 
-+ [NCAPS K_N] > U+0f53
-+ [CAPS K_N] > U+0f4e
-+ [NCAPS SHIFT K_N] > U+0f4e
-+ [CAPS SHIFT K_N] > U+0f53
-+ [NCAPS SHIFT RALT K_N] > U+0f9e
++ [K_N] > U+0f53
++ [SHIFT K_N] > U+0f4e
++ [SHIFT RALT K_N] > U+0f9e
 
-+ [NCAPS K_O] > U+0f7c
-+ [CAPS K_O] > U+0f1a
-+ [NCAPS SHIFT K_O] > U+0f1a
-+ [CAPS SHIFT K_O] > U+0f7c
-c + [NCAPS SHIFT RALT K_O] > U+0fc0   c removed because this is a Keyman hotkey
-+ [NCAPS RALT K_O] > U+0fc0
++ [K_O] > U+0f7c
++ [SHIFT K_O] > U+0f1a
+c + [SHIFT RALT K_O] > U+0fc0   c removed because this is a Keyman hotkey
++ [RALT K_O] > U+0fc0
 
-+ [NCAPS K_P] > U+0f55
-+ [CAPS K_P] > U+0f1b
-+ [NCAPS SHIFT K_P] > U+0f1b
-+ [CAPS SHIFT K_P] > U+0f55
-+ [NCAPS SHIFT RALT K_P] > U+0fc1
++ [K_P] > U+0f55
++ [SHIFT K_P] > U+0f1b
++ [SHIFT RALT K_P] > U+0fc1
 
-+ [NCAPS K_Q] > U+0f45
-+ [CAPS K_Q] > U+0f15
-+ [NCAPS SHIFT K_Q] > U+0f15
-+ [CAPS SHIFT K_Q] > U+0f45
-+ [NCAPS SHIFT RALT K_Q] > U+0f89
++ [K_Q] > U+0f45
++ [SHIFT K_Q] > U+0f15
++ [SHIFT RALT K_Q] > U+0f89
 
-+ [NCAPS K_R] > U+0f62
-+ [CAPS K_R] > U+0fbc
-+ [NCAPS SHIFT K_R] > U+0fbc
-+ [CAPS SHIFT K_R] > U+0f62
-+ [NCAPS SHIFT RALT K_R] > U+0f6a
++ [K_R] > U+0f62
++ [SHIFT K_R] > U+0fbc
++ [SHIFT RALT K_R] > U+0f6a
 
-+ [NCAPS K_S] > U+0f66
-+ [CAPS K_S] > U+0f1f
-+ [NCAPS SHIFT K_S] > U+0f1f
-+ [CAPS SHIFT K_S] > U+0f66
-+ [NCAPS SHIFT RALT K_S] > U+0fc5
++ [K_S] > U+0f66
++ [SHIFT K_S] > U+0f1f
++ [SHIFT RALT K_S] > U+0fc5
 
-+ [NCAPS K_T] > U+0f4f
-+ [CAPS K_T] > U+0f4a
-+ [NCAPS SHIFT K_T] > U+0f4a
-+ [CAPS SHIFT K_T] > U+0f4f
-+ [NCAPS SHIFT RALT K_T] > U+0f9a
++ [K_T] > U+0f4f
++ [SHIFT K_T] > U+0f4a
++ [SHIFT RALT K_T] > U+0f9a
 
-+ [NCAPS K_U] > U+0f74
-+ [CAPS K_U] > U+0f18
-+ [NCAPS SHIFT K_U] > U+0f18
-+ [CAPS SHIFT K_U] > U+0f74
-+ [NCAPS SHIFT RALT K_U] > U+0f71 U+0f74
++ [K_U] > U+0f74
++ [SHIFT K_U] > U+0f18
++ [SHIFT RALT K_U] > U+0f71 U+0f74
 
-+ [NCAPS K_V] > U+0f41
-+ [CAPS K_V] > U+0f87
-+ [NCAPS SHIFT K_V] > U+0f87
-+ [CAPS SHIFT K_V] > U+0f41
-+ [NCAPS SHIFT RALT K_V] > U+0f36
++ [K_V] > U+0f41
++ [SHIFT K_V] > U+0f87
++ [SHIFT RALT K_V] > U+0f36
 
-+ [NCAPS K_W] > U+0f46
-+ [CAPS K_W] > U+0f16
-+ [NCAPS SHIFT K_W] > U+0f16
-+ [CAPS SHIFT K_W] > U+0f46
-+ [NCAPS SHIFT RALT K_W] > U+0f88
++ [K_W] > U+0f46
++ [SHIFT K_W] > U+0f16
++ [SHIFT RALT K_W] > U+0f88
 
-+ [NCAPS K_X] > U+0f64
-+ [CAPS K_X] > U+0f65
-+ [NCAPS SHIFT K_X] > U+0f65
-+ [CAPS SHIFT K_X] > U+0f64
-+ [NCAPS SHIFT RALT K_X] > U+0fb5
++ [K_X] > U+0f64
++ [SHIFT K_X] > U+0f65
++ [SHIFT RALT K_X] > U+0fb5
 
-+ [NCAPS K_Y] > U+0f61
-+ [CAPS K_Y] > U+0fbb
-+ [NCAPS SHIFT K_Y] > U+0fbb
-+ [CAPS SHIFT K_Y] > U+0f61
-+ [NCAPS SHIFT RALT K_Y] > U+0fbf
++ [K_Y] > U+0f61
++ [SHIFT K_Y] > U+0fbb
++ [SHIFT RALT K_Y] > U+0fbf
 
-+ [NCAPS K_Z] > U+0f5f
-+ [CAPS K_Z] > U+0f34
-+ [NCAPS SHIFT K_Z] > U+0f34
-+ [CAPS SHIFT K_Z] > U+0f5f
-+ [NCAPS SHIFT RALT K_Z] > U+0fcc
++ [K_Z] > U+0f5f
++ [SHIFT K_Z] > U+0f34
++ [SHIFT RALT K_Z] > U+0fcc
 
-+ [NCAPS K_COLON] > U+0f5e
-+ [CAPS K_COLON] > U+0f07
-+ [NCAPS SHIFT K_COLON] > U+0f07
-+ [CAPS SHIFT K_COLON] > U+0f5e
-+ [NCAPS SHIFT RALT K_COLON] > U+0fca
++ [K_COLON] > U+0f5e
++ [SHIFT K_COLON] > U+0f07
++ [SHIFT RALT K_COLON] > U+0fca
 
-+ [NCAPS K_EQUAL] > U+0f5d
-+ [CAPS K_EQUAL] > U+0f3d
-+ [NCAPS SHIFT K_EQUAL] > U+0f3d
-+ [CAPS SHIFT K_EQUAL] > U+0f5d
-+ [NCAPS SHIFT RALT K_EQUAL] > U+0f13
++ [K_EQUAL] > U+0f5d
++ [SHIFT K_EQUAL] > U+0f3d
++ [SHIFT RALT K_EQUAL] > U+0f13
 
-+ [NCAPS K_COMMA] > U+0f50
-+ [CAPS K_COMMA] > U+0f4b
-+ [NCAPS SHIFT K_COMMA] > U+0f4b
-+ [CAPS SHIFT K_COMMA] > U+0f50
-+ [NCAPS SHIFT RALT K_COMMA] > U+0f9b
++ [K_COMMA] > U+0f50
++ [SHIFT K_COMMA] > U+0f4b
++ [SHIFT RALT K_COMMA] > U+0f9b
 
-+ [NCAPS K_HYPHEN] > U+0f67
-+ [CAPS K_HYPHEN] > U+0f3c
-+ [NCAPS SHIFT K_HYPHEN] > U+0f3c
-+ [CAPS SHIFT K_HYPHEN] > U+0f67
-+ [NCAPS SHIFT RALT K_HYPHEN] > U+0f0c
++ [K_HYPHEN] > U+0f67
++ [SHIFT K_HYPHEN] > U+0f3c
++ [SHIFT RALT K_HYPHEN] > U+0f0c
 
-+ [NCAPS K_PERIOD] > U+0f47
-+ [CAPS K_PERIOD] > U+0f3a
-+ [NCAPS SHIFT K_PERIOD] > U+0f3a
-+ [CAPS SHIFT K_PERIOD] > U+0f47
-+ [NCAPS SHIFT RALT K_PERIOD] > U+0f8b
++ [K_PERIOD] > U+0f47
++ [SHIFT K_PERIOD] > U+0f3a
++ [SHIFT RALT K_PERIOD] > U+0f8b
 
-+ [NCAPS K_SLASH] > U+0f49
-+ [CAPS K_SLASH] > U+0f3b
-+ [NCAPS SHIFT K_SLASH] > U+0f3b
-+ [CAPS SHIFT K_SLASH] > U+0f49
-+ [NCAPS SHIFT RALT K_SLASH] > U+0f8a
++ [K_SLASH] > U+0f49
++ [SHIFT K_SLASH] > U+0f3b
++ [SHIFT RALT K_SLASH] > U+0f8a
 
-+ [NCAPS K_BKQUOTE] > U+0f68
-+ [CAPS K_BKQUOTE] > U+0f01
-+ [NCAPS SHIFT K_BKQUOTE] > U+0f01
-+ [CAPS SHIFT K_BKQUOTE] > U+0f68
-+ [NCAPS SHIFT RALT K_BKQUOTE] > U+0f00
++ [K_BKQUOTE] > U+0f68
++ [SHIFT K_BKQUOTE] > U+0f01
++ [SHIFT RALT K_BKQUOTE] > U+0f00
 
-+ [NCAPS K_LBRKT] > U+0f59
-+ [CAPS K_LBRKT] > U+0f1c
-+ [NCAPS SHIFT K_LBRKT] > U+0f1c
-+ [CAPS SHIFT K_LBRKT] > U+0f59
-+ [NCAPS SHIFT RALT K_LBRKT] > U+0fc2
++ [K_LBRKT] > U+0f59
++ [SHIFT K_LBRKT] > U+0f1c
++ [SHIFT RALT K_LBRKT] > U+0fc2
 
-+ [NCAPS K_BKSLASH] > U+0f5b
-+ [CAPS K_BKSLASH] > U+0f1e
-+ [NCAPS SHIFT K_BKSLASH] > U+0f1e
-+ [CAPS SHIFT K_BKSLASH] > U+0f5b
-+ [NCAPS SHIFT RALT K_BKSLASH] > U+0f5c
++ [K_BKSLASH] > U+0f5b
++ [SHIFT K_BKSLASH] > U+0f1e
++ [SHIFT RALT K_BKSLASH] > U+0f5c
 
-+ [NCAPS K_RBRKT] > U+0f5a
-+ [CAPS K_RBRKT] > U+0f1d
-+ [NCAPS SHIFT K_RBRKT] > U+0f1d
-+ [CAPS SHIFT K_RBRKT] > U+0f5a
-+ [NCAPS SHIFT RALT K_RBRKT] > U+0fc3
++ [K_RBRKT] > U+0f5a
++ [SHIFT K_RBRKT] > U+0f1d
++ [SHIFT RALT K_RBRKT] > U+0fc3
 
-+ [NCAPS K_QUOTE] > U+0f0d
-+ [CAPS K_QUOTE] > U+0f38
-+ [NCAPS SHIFT K_QUOTE] > U+0f38
-+ [CAPS SHIFT K_QUOTE] > U+0f0d
-+ [NCAPS SHIFT RALT K_QUOTE] > U+0fcb
++ [K_QUOTE] > U+0f0d
++ [SHIFT K_QUOTE] > U+0f38
++ [SHIFT RALT K_QUOTE] > U+0fcb
 
 
 match > use(deadkeys)
