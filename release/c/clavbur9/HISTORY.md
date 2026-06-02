@@ -1,6 +1,12 @@
 Clavier du Burkina Change History
 =======================
 
+9.1.3 (2026-06-02)
+------------------
+* Removed deprecated &VERSION and &HotKey stores (engine version is now auto-determined)
+* Removed dead &ETHNOLOGUECODE store (languages are declared in the package)
+* Updated stale comments around the mnemonic-layout / KeymanWeb handling
+
 9.1.2 (2025-06-09)
 ------------------
 * Add Charis font
