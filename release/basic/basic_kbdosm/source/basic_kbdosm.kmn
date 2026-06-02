@@ -14,6 +14,7 @@ store(&BITMAP) 'basic_kbdosm.ico'
 store(&LAYOUTFILE) 'basic_kbdosm.keyman-touch-layout'
 store(&COPYRIGHT) '© 2019 SIL International'
 store(&KEYBOARDVERSION) '1.0'
+store(&CasedKeys) [K_A]..[K_O] [K_Q]..[K_U] [K_W]..[K_Z]
 store(&TARGETS) 'any'
 
 begin Unicode > use(main)
@@ -52,10 +53,8 @@ group(main) using keys
 + [K_9] > U+0104a9
 + [SHIFT K_9] > U+0028
 
-+ [NCAPS K_A] > U+010496
-+ [CAPS K_A] > U+01049b
-+ [NCAPS SHIFT K_A] > U+01049b
-+ [CAPS SHIFT K_A] > U+010496
++ [K_A] > U+010496
++ [SHIFT K_A] > U+01049b
 
 + [K_B] > U+010481
 + [SHIFT K_B] > U+010481
@@ -63,15 +62,11 @@ group(main) using keys
 + [K_C] > U+01048b
 + [SHIFT K_C] > U+01048b
 
-+ [NCAPS K_D] > U+010486
-+ [CAPS K_D] > U+01048a
-+ [NCAPS SHIFT K_D] > U+01048a
-+ [CAPS SHIFT K_D] > U+010486
++ [K_D] > U+010486
++ [SHIFT K_D] > U+01048a
 
-+ [NCAPS K_E] > U+010497
-+ [CAPS K_E] > U+01049c
-+ [NCAPS SHIFT K_E] > U+01049c
-+ [CAPS SHIFT K_E] > U+010497
++ [K_E] > U+010497
++ [SHIFT K_E] > U+01049c
 
 + [K_F] > U+01048d
 + [SHIFT K_F] > U+01048d
@@ -88,10 +83,8 @@ group(main) using keys
 + [K_J] > U+010483
 + [SHIFT K_J] > U+010483
 
-+ [NCAPS K_K] > U+01048f
-+ [CAPS K_K] > U+010485
-+ [NCAPS SHIFT K_K] > U+010485
-+ [CAPS SHIFT K_K] > U+01048f
++ [K_K] > U+01048f
++ [SHIFT K_K] > U+010485
 
 + [K_L] > U+010490
 + [SHIFT K_L] > U+010490
@@ -102,10 +95,8 @@ group(main) using keys
 + [K_N] > U+010492
 + [SHIFT K_N] > U+010492
 
-+ [NCAPS K_O] > U+010499
-+ [CAPS K_O] > U+01049d
-+ [NCAPS SHIFT K_O] > U+01049d
-+ [CAPS SHIFT K_O] > U+010499
++ [K_O] > U+010499
++ [SHIFT K_O] > U+01049d
 
 + [K_Q] > U+01048e
 + [SHIFT K_Q] > U+01048e
@@ -113,10 +104,8 @@ group(main) using keys
 + [K_R] > U+010487
 + [SHIFT K_R] > U+010487
 
-+ [NCAPS K_S] > U+010488
-+ [CAPS K_S] > U+010489
-+ [NCAPS SHIFT K_S] > U+010489
-+ [CAPS SHIFT K_S] > U+010488
++ [K_S] > U+010488
++ [SHIFT K_S] > U+010489
 
 + [K_T] > U+010482
 + [SHIFT K_T] > U+010482

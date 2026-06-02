@@ -15,6 +15,7 @@ store(&BITMAP) 'basic_kbdth0.ico'
 store(&LAYOUTFILE) 'basic_kbdth0.keyman-touch-layout'
 store(&COPYRIGHT) '(c) 2009-2019 SIL International'
 store(&KEYBOARDVERSION) '1.1'
+store(&CasedKeys) [K_0]..[K_9] [K_A]..[K_Z] [K_BKQUOTE] [K_BKSLASH] [K_COLON] [K_COMMA] [K_EQUAL] [K_HYPHEN] [K_LBRKT] [K_PERIOD] [K_QUOTE] [K_RBRKT] [K_SLASH] [K_SPACE] [K_oE2]
 
 begin Unicode > use(main)
 
@@ -22,248 +23,152 @@ group(main) using keys
 
 + [K_SPACE] > U+0020
 
-+ [NCAPS K_0] > U+0e08
-+ [CAPS K_0] > U+0e57
-+ [NCAPS SHIFT K_0] > U+0e57
-+ [CAPS SHIFT K_0] > U+0e08
++ [K_0] > U+0e08
++ [SHIFT K_0] > U+0e57
 
-+ [NCAPS K_1] > U+0e45
-+ [CAPS K_1] > U+002b
-+ [NCAPS SHIFT K_1] > U+002b
-+ [CAPS SHIFT K_1] > U+0e45
++ [K_1] > U+0e45
++ [SHIFT K_1] > U+002b
 
-+ [NCAPS K_2] > U+002f
-+ [CAPS K_2] > U+0e51
-+ [NCAPS SHIFT K_2] > U+0e51
-+ [CAPS SHIFT K_2] > U+002f
++ [K_2] > U+002f
++ [SHIFT K_2] > U+0e51
 
-+ [NCAPS K_3] > U+002d
-+ [CAPS K_3] > U+0e52
-+ [NCAPS SHIFT K_3] > U+0e52
-+ [CAPS SHIFT K_3] > U+002d
++ [K_3] > U+002d
++ [SHIFT K_3] > U+0e52
 
-+ [NCAPS K_4] > U+0e20
-+ [CAPS K_4] > U+0e53
-+ [NCAPS SHIFT K_4] > U+0e53
-+ [CAPS SHIFT K_4] > U+0e20
++ [K_4] > U+0e20
++ [SHIFT K_4] > U+0e53
 
-+ [NCAPS K_5] > U+0e16
-+ [CAPS K_5] > U+0e54
-+ [NCAPS SHIFT K_5] > U+0e54
-+ [CAPS SHIFT K_5] > U+0e16
++ [K_5] > U+0e16
++ [SHIFT K_5] > U+0e54
 
-+ [NCAPS K_6] > U+0e38
-+ [CAPS K_6] > U+0e39
-+ [NCAPS SHIFT K_6] > U+0e39
-+ [CAPS SHIFT K_6] > U+0e38
++ [K_6] > U+0e38
++ [SHIFT K_6] > U+0e39
 
-+ [NCAPS K_7] > U+0e36
-+ [CAPS K_7] > U+0e3f
-+ [NCAPS SHIFT K_7] > U+0e3f
-+ [CAPS SHIFT K_7] > U+0e36
++ [K_7] > U+0e36
++ [SHIFT K_7] > U+0e3f
 
-+ [NCAPS K_8] > U+0e04
-+ [CAPS K_8] > U+0e55
-+ [NCAPS SHIFT K_8] > U+0e55
-+ [CAPS SHIFT K_8] > U+0e04
++ [K_8] > U+0e04
++ [SHIFT K_8] > U+0e55
 
-+ [NCAPS K_9] > U+0e15
-+ [CAPS K_9] > U+0e56
-+ [NCAPS SHIFT K_9] > U+0e56
-+ [CAPS SHIFT K_9] > U+0e15
++ [K_9] > U+0e15
++ [SHIFT K_9] > U+0e56
 
-+ [NCAPS K_A] > U+0e1f
-+ [CAPS K_A] > U+0e24
-+ [NCAPS SHIFT K_A] > U+0e24
-+ [CAPS SHIFT K_A] > U+0e1f
++ [K_A] > U+0e1f
++ [SHIFT K_A] > U+0e24
 
-+ [NCAPS K_B] > U+0e34
-+ [CAPS K_B] > U+0e3a
-+ [NCAPS SHIFT K_B] > U+0e3a
-+ [CAPS SHIFT K_B] > U+0e34
++ [K_B] > U+0e34
++ [SHIFT K_B] > U+0e3a
 
-+ [NCAPS K_C] > U+0e41
-+ [CAPS K_C] > U+0e09
-+ [NCAPS SHIFT K_C] > U+0e09
-+ [CAPS SHIFT K_C] > U+0e41
++ [K_C] > U+0e41
++ [SHIFT K_C] > U+0e09
 
-+ [NCAPS K_D] > U+0e01
-+ [CAPS K_D] > U+0e0f
-+ [NCAPS SHIFT K_D] > U+0e0f
-+ [CAPS SHIFT K_D] > U+0e01
++ [K_D] > U+0e01
++ [SHIFT K_D] > U+0e0f
 
-+ [NCAPS K_E] > U+0e33
-+ [CAPS K_E] > U+0e0e
-+ [NCAPS SHIFT K_E] > U+0e0e
-+ [CAPS SHIFT K_E] > U+0e33
++ [K_E] > U+0e33
++ [SHIFT K_E] > U+0e0e
 
-+ [NCAPS K_F] > U+0e14
-+ [CAPS K_F] > U+0e42
-+ [NCAPS SHIFT K_F] > U+0e42
-+ [CAPS SHIFT K_F] > U+0e14
++ [K_F] > U+0e14
++ [SHIFT K_F] > U+0e42
 
-+ [NCAPS K_G] > U+0e40
-+ [CAPS K_G] > U+0e0c
-+ [NCAPS SHIFT K_G] > U+0e0c
-+ [CAPS SHIFT K_G] > U+0e40
++ [K_G] > U+0e40
++ [SHIFT K_G] > U+0e0c
 
-+ [NCAPS K_H] > U+0e49
-+ [CAPS K_H] > U+0e47
-+ [NCAPS SHIFT K_H] > U+0e47
-+ [CAPS SHIFT K_H] > U+0e49
++ [K_H] > U+0e49
++ [SHIFT K_H] > U+0e47
 
-+ [NCAPS K_I] > U+0e23
-+ [CAPS K_I] > U+0e13
-+ [NCAPS SHIFT K_I] > U+0e13
-+ [CAPS SHIFT K_I] > U+0e23
++ [K_I] > U+0e23
++ [SHIFT K_I] > U+0e13
 
-+ [NCAPS K_J] > U+0e48
-+ [CAPS K_J] > U+0e4b
-+ [NCAPS SHIFT K_J] > U+0e4b
-+ [CAPS SHIFT K_J] > U+0e48
++ [K_J] > U+0e48
++ [SHIFT K_J] > U+0e4b
 
-+ [NCAPS K_K] > U+0e32
-+ [CAPS K_K] > U+0e29
-+ [NCAPS SHIFT K_K] > U+0e29
-+ [CAPS SHIFT K_K] > U+0e32
++ [K_K] > U+0e32
++ [SHIFT K_K] > U+0e29
 
-+ [NCAPS K_L] > U+0e2a
-+ [CAPS K_L] > U+0e28
-+ [NCAPS SHIFT K_L] > U+0e28
-+ [CAPS SHIFT K_L] > U+0e2a
++ [K_L] > U+0e2a
++ [SHIFT K_L] > U+0e28
 
-+ [NCAPS K_M] > U+0e17
-+ [CAPS K_M] > U+003f
-+ [NCAPS SHIFT K_M] > U+003f
-+ [CAPS SHIFT K_M] > U+0e17
++ [K_M] > U+0e17
++ [SHIFT K_M] > U+003f
 
-+ [NCAPS K_N] > U+0e37
-+ [CAPS K_N] > U+0e4c
-+ [NCAPS SHIFT K_N] > U+0e4c
-+ [CAPS SHIFT K_N] > U+0e37
++ [K_N] > U+0e37
++ [SHIFT K_N] > U+0e4c
 
-+ [NCAPS K_O] > U+0e19
-+ [CAPS K_O] > U+0e2f
-+ [NCAPS SHIFT K_O] > U+0e2f
-+ [CAPS SHIFT K_O] > U+0e19
++ [K_O] > U+0e19
++ [SHIFT K_O] > U+0e2f
 
-+ [NCAPS K_P] > U+0e22
-+ [CAPS K_P] > U+0e0d
-+ [NCAPS SHIFT K_P] > U+0e0d
-+ [CAPS SHIFT K_P] > U+0e22
++ [K_P] > U+0e22
++ [SHIFT K_P] > U+0e0d
 
-+ [NCAPS K_Q] > U+0e46
-+ [CAPS K_Q] > U+0e50
-+ [NCAPS SHIFT K_Q] > U+0e50
-+ [CAPS SHIFT K_Q] > U+0e46
++ [K_Q] > U+0e46
++ [SHIFT K_Q] > U+0e50
 
-+ [NCAPS K_R] > U+0e1e
-+ [CAPS K_R] > U+0e11
-+ [NCAPS SHIFT K_R] > U+0e11
-+ [CAPS SHIFT K_R] > U+0e1e
++ [K_R] > U+0e1e
++ [SHIFT K_R] > U+0e11
 
-+ [NCAPS K_S] > U+0e2b
-+ [CAPS K_S] > U+0e06
-+ [NCAPS SHIFT K_S] > U+0e06
-+ [CAPS SHIFT K_S] > U+0e2b
++ [K_S] > U+0e2b
++ [SHIFT K_S] > U+0e06
 
-+ [NCAPS K_T] > U+0e30
-+ [CAPS K_T] > U+0e18
-+ [NCAPS SHIFT K_T] > U+0e18
-+ [CAPS SHIFT K_T] > U+0e30
++ [K_T] > U+0e30
++ [SHIFT K_T] > U+0e18
 
-+ [NCAPS K_U] > U+0e35
-+ [CAPS K_U] > U+0e4a
-+ [NCAPS SHIFT K_U] > U+0e4a
-+ [CAPS SHIFT K_U] > U+0e35
++ [K_U] > U+0e35
++ [SHIFT K_U] > U+0e4a
 
-+ [NCAPS K_V] > U+0e2d
-+ [CAPS K_V] > U+0e2e
-+ [NCAPS SHIFT K_V] > U+0e2e
-+ [CAPS SHIFT K_V] > U+0e2d
++ [K_V] > U+0e2d
++ [SHIFT K_V] > U+0e2e
 
-+ [NCAPS K_W] > U+0e44
-+ [CAPS K_W] > U+0022
-+ [NCAPS SHIFT K_W] > U+0022
-+ [CAPS SHIFT K_W] > U+0e44
++ [K_W] > U+0e44
++ [SHIFT K_W] > U+0022
 
-+ [NCAPS K_X] > U+0e1b
-+ [CAPS K_X] > U+0029
-+ [NCAPS SHIFT K_X] > U+0029
-+ [CAPS SHIFT K_X] > U+0e1b
++ [K_X] > U+0e1b
++ [SHIFT K_X] > U+0029
 
-+ [NCAPS K_Y] > U+0e31
-+ [CAPS K_Y] > U+0e4d
-+ [NCAPS SHIFT K_Y] > U+0e4d
-+ [CAPS SHIFT K_Y] > U+0e31
++ [K_Y] > U+0e31
++ [SHIFT K_Y] > U+0e4d
 
-+ [NCAPS K_Z] > U+0e1c
-+ [CAPS K_Z] > U+0028
-+ [NCAPS SHIFT K_Z] > U+0028
-+ [CAPS SHIFT K_Z] > U+0e1c
++ [K_Z] > U+0e1c
++ [SHIFT K_Z] > U+0028
 
-+ [NCAPS K_COLON] > U+0e27
-+ [CAPS K_COLON] > U+0e0b
-+ [NCAPS SHIFT K_COLON] > U+0e0b
-+ [CAPS SHIFT K_COLON] > U+0e27
++ [K_COLON] > U+0e27
++ [SHIFT K_COLON] > U+0e0b
 
-+ [NCAPS K_EQUAL] > U+0e0a
-+ [CAPS K_EQUAL] > U+0e59
-+ [NCAPS SHIFT K_EQUAL] > U+0e59
-+ [CAPS SHIFT K_EQUAL] > U+0e0a
++ [K_EQUAL] > U+0e0a
++ [SHIFT K_EQUAL] > U+0e59
 
-+ [NCAPS K_COMMA] > U+0e21
-+ [CAPS K_COMMA] > U+0e12
-+ [NCAPS SHIFT K_COMMA] > U+0e12
-+ [CAPS SHIFT K_COMMA] > U+0e21
++ [K_COMMA] > U+0e21
++ [SHIFT K_COMMA] > U+0e12
 
-+ [NCAPS K_HYPHEN] > U+0e02
-+ [CAPS K_HYPHEN] > U+0e58
-+ [NCAPS SHIFT K_HYPHEN] > U+0e58
-+ [CAPS SHIFT K_HYPHEN] > U+0e02
++ [K_HYPHEN] > U+0e02
++ [SHIFT K_HYPHEN] > U+0e58
 
-+ [NCAPS K_PERIOD] > U+0e43
-+ [CAPS K_PERIOD] > U+0e2c
-+ [NCAPS SHIFT K_PERIOD] > U+0e2c
-+ [CAPS SHIFT K_PERIOD] > U+0e43
++ [K_PERIOD] > U+0e43
++ [SHIFT K_PERIOD] > U+0e2c
 
-+ [NCAPS K_SLASH] > U+0e1d
-+ [CAPS K_SLASH] > U+0e26
-+ [NCAPS SHIFT K_SLASH] > U+0e26
-+ [CAPS SHIFT K_SLASH] > U+0e1d
++ [K_SLASH] > U+0e1d
++ [SHIFT K_SLASH] > U+0e26
 
-+ [NCAPS K_BKQUOTE] > U+005f
-+ [CAPS K_BKQUOTE] > U+0025
-+ [NCAPS SHIFT K_BKQUOTE] > U+0025
-+ [CAPS SHIFT K_BKQUOTE] > U+005f
++ [K_BKQUOTE] > U+005f
++ [SHIFT K_BKQUOTE] > U+0025
 
-+ [NCAPS K_LBRKT] > U+0e1a
-+ [CAPS K_LBRKT] > U+0e10
-+ [NCAPS SHIFT K_LBRKT] > U+0e10
-+ [CAPS SHIFT K_LBRKT] > U+0e1a
-+ [NCAPS LCTRL K_LBRKT] > U+0025
++ [K_LBRKT] > U+0e1a
++ [SHIFT K_LBRKT] > U+0e10
++ [LCTRL K_LBRKT] > U+0025
 
-+ [NCAPS K_BKSLASH] > U+0e03
-+ [CAPS K_BKSLASH] > U+0e05
-+ [NCAPS SHIFT K_BKSLASH] > U+0e05
-+ [CAPS SHIFT K_BKSLASH] > U+0e03
-+ [NCAPS LCTRL K_BKSLASH] > U+002b
++ [K_BKSLASH] > U+0e03
++ [SHIFT K_BKSLASH] > U+0e05
++ [LCTRL K_BKSLASH] > U+002b
 
-+ [NCAPS K_RBRKT] > U+0e25
-+ [CAPS K_RBRKT] > U+002c
-+ [NCAPS SHIFT K_RBRKT] > U+002c
-+ [CAPS SHIFT K_RBRKT] > U+0e25
-+ [NCAPS LCTRL K_RBRKT] > U+0e51
++ [K_RBRKT] > U+0e25
++ [SHIFT K_RBRKT] > U+002c
++ [LCTRL K_RBRKT] > U+0e51
 
-+ [NCAPS K_QUOTE] > U+0e07
-+ [CAPS K_QUOTE] > U+002e
-+ [NCAPS SHIFT K_QUOTE] > U+002e
-+ [CAPS SHIFT K_QUOTE] > U+0e07
++ [K_QUOTE] > U+0e07
++ [SHIFT K_QUOTE] > U+002e
 
-+ [NCAPS K_oE2] > U+0e03
-+ [CAPS K_oE2] > U+0e05
-+ [NCAPS SHIFT K_oE2] > U+0e05
-+ [CAPS SHIFT K_oE2] > U+0e03
-+ [NCAPS LCTRL K_oE2] > U+0e52
++ [K_oE2] > U+0e03
++ [SHIFT K_oE2] > U+0e05
++ [LCTRL K_oE2] > U+0e52
 
 
