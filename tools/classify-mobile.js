@@ -8,13 +8,19 @@
 //                      Developer auto-generated default (desktop mirror, tablet-only,
 //                      longpress only on the default punctuation/bracket keys). Not a
 //                      real mobile design.
-//   DEVELOPED        - a genuinely authored mobile layout: has a `phone` form-factor
-//                      block AND real customization (>=1 longpress popup on a non-default
-//                      key, i.e. a letter/number, OR flick/multitap gestures).
+//   DEVELOPED        - a hand-edited mobile layout: at least one longpress popup on a
+//                      non-punctuation key (a letter/number), OR a flick gesture.
 //
-// The default scaffold ships longpress on punctuation keys (the `.`/`[`/`]` keys), so
-// longpress *existence* is not enough -- we only count longpress on keys outside the
-// default set, and we require a deliberately-added phone layout.
+// Rationale (confirmed against the Keyman Developer workflow):
+//   * Platform blocks (phone vs tablet) are NOT a signal -- they only reflect which
+//     era's default scaffold the keyboard was created from (old=tablet-only,
+//     then=phone+tablet, modern=phone-only), so they are ignored here.
+//   * The auto-generated scaffold ships longpress ONLY on punctuation/bracket keys
+//     (the `.`/`[`/`]` keys). It does NOT auto-populate longpress on letters/numbers,
+//     so any longpress on a non-punctuation key is a deliberate hand-edit.
+//   * Flicks are essentially never auto-generated -> hand-edit.
+//   * multitap is reported but NOT used for the verdict: Keyman can auto-generate
+//     multitap on the number row, so it is not a reliable hand-edit signal.
 const fs = require('fs');
 const path = require('path');
 
@@ -87,7 +93,7 @@ for (const kmn of kmns) {
 
   let verdict;
   if (!hasTouchFile || touchTarget === 'no') verdict = 'DESKTOP_ONLY';
-  else if (a.hasPhone && (a.skNonDefault >= 1 || a.flick > 0 || a.multitap > 0)) verdict = 'DEVELOPED';
+  else if (a.skNonDefault >= 1 || a.flick > 0) verdict = 'DEVELOPED';
   else verdict = 'DEFAULT_SCAFFOLD';
 
   tally[verdict] = (tally[verdict] || 0) + 1;
