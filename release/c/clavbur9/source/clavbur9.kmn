@@ -34,15 +34,17 @@ store(TildeK)   '~'    c "~"
 store(modifierK)    $GraveK $AcuteK $CircK   $MacronK $DotAK    $DrsisK \
                     $CaronK $HiMidK $MidLowK $TildeBK $MacronBK $DotBK  $TildeK
 
-c Modify next line to select preferred capital schwa
-store(CapSchwa) U+018E c "Ǝ"  or U+018F "Ə"  BEWARE lowercase reversed is U+01dd, not U+0259 
-store(LCSchwa)  U+01dd c if capital shwa (above)is used, use U+0259
+c Schwa variant is controlled by the schwaChoice option store below.
+c CapSchwa/LCSchwa remain as placeholders in Uspecchar1; actual output uses schwaChoice rules.
+store(CapSchwa) U+018E c "Ǝ"  or U+018F "Ə"  BEWARE lowercase reversed is U+01DD, not U+0259
+store(LCSchwa)  U+01DD c if capital schwa above is U+018E use U+01DD; if U+018F use U+0259
+store(schwaChoice) '0'  c 0 = reversed E (Ǝ/ǝ U+018E/U+01DD, default), 1 = open E (Ə/ə U+018F/U+0259)
 c The following lines create NFC values only for ANSI equivalents.  This fixes problems with
 c French spelling and grammar checkers which don't apparantly substitute NFD -> NFC
 c It is too complex at this time to attempt to account for all possible composites.
-store(Umodifiable)  U+0041 U+0045 U+018E U+0190 U+0049 U+0196 U+004F U+0186 \
+store(Umodifiable)  U+0041 U+0045 U+018E U+018F U+0190 U+0049 U+0196 U+004F U+0186 \
                     U+0055 U+01B2 U+004E U+014A U+019D U+004D \
-                    U+0061 U+0065 $LCSchwa U+025B U+0069 U+0269 U+006F U+0254 \
+                    U+0061 U+0065 U+01DD U+0259 U+025B U+0069 U+0269 U+006F U+0254 \
                     U+0075 U+028B U+006E U+014B U+0272 U+006D
 
 c Used with semicolon
@@ -81,7 +83,11 @@ store(cons)     U+0044 U+0064
 
 group(Main) using keys
 
-c semicolon before
+c semicolon before -- A/a (schwa) handled first so schwaChoice option controls the output
+if(schwaChoice = '0') ";" + "A" > U+018E
+if(schwaChoice = '0') ";" + "a" > U+01DD
+if(schwaChoice = '1') ";" + "A" > U+018F
+if(schwaChoice = '1') ";" + "a" > U+0259
 ";" + any(specchar1K) > index(Uspecchar1,2)
 c comma before
 "," + any(specchar2K) > index(Uspecchar2,2)

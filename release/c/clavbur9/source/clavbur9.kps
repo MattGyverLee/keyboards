@@ -47,6 +47,12 @@ AZERTY ou le clavier QWERTY.</Description>
       <FileType>.htm</FileType>
     </File>
     <File>
+      <Name>options.htm</Name>
+      <Description>File options.htm</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.htm</FileType>
+    </File>
+    <File>
       <Name>..\build\clavbur9.js</Name>
       <Description>File clavbur9.js</Description>
       <CopyLocation>0</CopyLocation>
