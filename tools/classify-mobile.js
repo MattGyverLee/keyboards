@@ -9,8 +9,8 @@
 //                      longpress only on the default punctuation/bracket keys). Not a
 //                      real mobile design.
 //   DEVELOPED        - a genuinely authored mobile layout: has a `phone` form-factor
-//                      block AND real customization (>=4 longpress popups on non-default
-//                      keys, i.e. letters/numbers, OR flick/multitap gestures).
+//                      block AND real customization (>=1 longpress popup on a non-default
+//                      key, i.e. a letter/number, OR flick/multitap gestures).
 //
 // The default scaffold ships longpress on punctuation keys (the `.`/`[`/`]` keys), so
 // longpress *existence* is not enough -- we only count longpress on keys outside the
@@ -87,7 +87,7 @@ for (const kmn of kmns) {
 
   let verdict;
   if (!hasTouchFile || touchTarget === 'no') verdict = 'DESKTOP_ONLY';
-  else if (a.hasPhone && (a.skNonDefault >= 4 || a.flick > 0 || a.multitap > 0)) verdict = 'DEVELOPED';
+  else if (a.hasPhone && (a.skNonDefault >= 1 || a.flick > 0 || a.multitap > 0)) verdict = 'DEVELOPED';
   else verdict = 'DEFAULT_SCAFFOLD';
 
   tally[verdict] = (tally[verdict] || 0) + 1;
