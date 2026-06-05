@@ -1,6 +1,5 @@
 *.kpj.user
 .idea/
-.codegraph/
 .claude/
 legacy/*/*/build/
 release/*/*/build/
