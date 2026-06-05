@@ -85,6 +85,16 @@ Some keyboards live in external repos. An `external_source` file in the keyboard
 
 See `docs/externally-hosted-keyboards.md` for details.
 
+## Code Intelligence (Codegraph)
+
+This repo has a [Codegraph](https://codegraph.dev) index (`.codegraph/`) that provides fast, indexed lookups across all source files. **Prefer codegraph tools over Glob/Grep/Read for any file listing, symbol search, or codebase exploration.**
+
+- `codegraph_files` — list or search files by path/glob pattern
+- `codegraph_explore` — answer architecture/how-does-X-work questions with verbatim source
+- `codegraph_search` — locate a specific symbol by name
+
+Only fall back to raw Glob/Grep/Read for content not indexed by codegraph (e.g. `.md`, `.kps`, image assets, non-source files).
+
 ## Contributing Workflow
 
 1. Modify source files under the keyboard's `source/` directory.
